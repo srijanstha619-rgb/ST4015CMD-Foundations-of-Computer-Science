@@ -86,7 +86,7 @@ docker inspect -f "{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}" ser
 Example output:
 
 ```
-172.20.0.2
+172.18.0.2
 ```
 
 ---
@@ -129,7 +129,7 @@ ping server
 Using IP address:
 
 ```bash
-ping 172.20.0.2
+ping 172.18.0.2
 ```
 
 ---
